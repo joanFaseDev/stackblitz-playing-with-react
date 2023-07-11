@@ -11,21 +11,21 @@ export default function App() {
           name: 'Jonathan Blow',
           description: 'Jonathan Blow, creator of Braid and The Witness',
         }}
-        size={{ width: 'auto', height: '200px' }}
+        size={{ width: '150px', height: '150px' }}
       />
       <Profile
         person={{
           name: 'John Carmack',
-          description: 'Jonathan Blow, creator of Braid and The Witness',
+          description: 'John Carmack, lead programmer on Doom and Quake',
         }}
-        size={{ width: 'auto', height: '200px' }}
+        size={{ width: '150px', height: '150px' }}
       />
       <Profile
         person={{
           name: 'Toru Iwatani',
-          description: 'Jonathan Blow, creator of Braid and The Witness',
+          description: 'Toru Iwatani, creator of Pac-man',
         }}
-        size={{ width: 'auto', height: '200px' }}
+        size={{ width: '150px', height: '150px' }}
       />
     </div>
   );

@@ -5,13 +5,14 @@ import { getPersonBio } from './utilities.js';
 
 export default function Description({ person }) {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', rowGap: '1rem' }}>
+    <div>
       <p
         style={{
           fontWeight: 'bold',
           fontSize: '2rem',
           fontFamily: 'monospace',
           fontStyle: 'italic',
+          marginBottom: '1.5rem',
         }}
       >
         {person.name}

@@ -11,14 +11,10 @@ export default function Profile({ person, size }) {
         backgroundColor: '#22223b',
         color: '#f2e9e4',
         width: 'min(80%, 800px)',
-        padding: ' .5rem 1rem',
+        padding: ' 2rem 1rem',
         border: '4px solid #f2e9e4',
         borderRadius: '14px',
         margin: '1rem auto',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        columnGap: '3rem',
       }}
     >
       <Photo person={person} size={size} />
