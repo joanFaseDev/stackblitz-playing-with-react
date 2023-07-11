@@ -1,18 +1,28 @@
 // Profile.js
 
 import React from 'react';
-import Photo from 'Photo.js';
+import Photo from './Photo.js';
+import Description from './Description.js';
 
-export default function Profile() {
+export default function Profile({ person, size }) {
   return (
-    <div>
-      <Photo
-        person={{
-          name: 'Jonathan Blow',
-          description: 'Jonathan Blow, creator of Braid and The Witness',
-        }}
-        size={200}
-      />
+    <div
+      style={{
+        backgroundColor: '#22223b',
+        color: '#f2e9e4',
+        width: 'min(80%, 800px)',
+        padding: ' .5rem 1rem',
+        border: '4px solid #f2e9e4',
+        borderRadius: '14px',
+        margin: '1rem auto',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        columnGap: '3rem',
+      }}
+    >
+      <Photo person={person} size={size} />
+      <Description person={person} />
     </div>
   );
 }
